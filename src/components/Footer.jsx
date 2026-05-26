@@ -4,9 +4,9 @@ export default function Footer() {
       <div className="container footer-inner">
         <div className="footer-logo">
           <div className="footer-logo-icon">R</div>
-          Reserveo
+          Reservaq
         </div>
-        <p className="footer-copy">© 2025 Reserveo. Hecho con ♥ para pequeños negocios.</p>
+        <p className="footer-copy">© 2025 Reservaq. Hecho con ♥ para pequeños negocios.</p>
         <div className="footer-links">
           <a href="#">Privacidad</a>
           <a href="#">Términos</a>

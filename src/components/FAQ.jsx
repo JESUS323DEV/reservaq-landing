@@ -10,7 +10,7 @@ const FAQS = [
     a: "Por WhatsApp (te llega un mensaje ya formateado con todos los datos) o por Email. Tú eliges el modo en la configuración y puedes cambiarlo cuando quieras.",
   },
   {
-    q: "¿Puedo usar TurnoYa en varias webs o negocios?",
+    q: "¿Puedo usar Reservaq en varias webs o negocios?",
     a: "Sí. Puedes crear una configuración distinta para cada negocio o sucursal. Con el plan Pro puedes gestionar múltiples desde el mismo panel.",
   },
   {

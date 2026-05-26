@@ -35,7 +35,7 @@ export default function Hero() {
                 <div className="hero-avatar">👨</div>
               </div>
               <p className="hero-proof-text">
-                <strong>+500 negocios</strong> ya usan Reserveo
+                <strong>+500 negocios</strong> ya usan Reservaq
               </p>
             </div>
           </div>

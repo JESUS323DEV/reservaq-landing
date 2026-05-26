@@ -4,7 +4,7 @@ export default function Navbar() {
       <div className="container navbar-inner">
         <a href="#" className="navbar-logo">
           <div className="navbar-logo-icon">R</div>
-          Reserveo
+          Reservaq
         </a>
 
         <ul className="navbar-links">
