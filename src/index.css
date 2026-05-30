@@ -562,7 +562,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 }
 .faq-q:hover { background: var(--bg-alt); }
 .faq-chevron { font-size: 18px; color: var(--text-muted); transition: transform 0.2s; flex-shrink: 0; }
-.faq-item.open .faq-chevron { transform: rotate(180deg); color: var(--violet); }
+.faq-item.open .faq-chevron { color: var(--violet); }
 .faq-a {
   padding: 0 22px;
   max-height: 0;

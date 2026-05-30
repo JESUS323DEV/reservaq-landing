@@ -1,3 +1,5 @@
+import { Zap } from "lucide-react";
+
 const STEPS = [
   {
     num: "1",
@@ -21,7 +23,7 @@ export default function HowItWorks() {
     <section className="how" id="como-funciona">
       <div className="container">
         <div className="how-head">
-          <span className="section-label">⚡ Cómo funciona</span>
+          <span className="section-label"><Zap size={13} /> Cómo funciona</span>
           <h2 className="section-title">En marcha en 3 pasos</h2>
           <p className="section-sub">
             No necesitas saber programar ni tener experiencia técnica.

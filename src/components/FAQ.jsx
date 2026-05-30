@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { HelpCircle, ChevronDown, ChevronUp } from "lucide-react";
 
 const FAQS = [
   {
@@ -34,7 +35,7 @@ export default function FAQ() {
     <section className="faq" id="faq">
       <div className="container">
         <div className="faq-head">
-          <span className="section-label">❓ Preguntas frecuentes</span>
+          <span className="section-label"><HelpCircle size={13} /> Preguntas frecuentes</span>
           <h2 className="section-title">Resolvemos tus dudas</h2>
           <p className="section-sub">
             Si no encuentras lo que buscas, escríbenos y te respondemos en minutos.
@@ -45,7 +46,9 @@ export default function FAQ() {
             <div key={i} className={`faq-item${open === i ? " open" : ""}`}>
               <button className="faq-q" onClick={() => setOpen(open === i ? null : i)}>
                 {item.q}
-                <span className="faq-chevron">⌄</span>
+                <span className="faq-chevron">
+                  {open === i ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                </span>
               </button>
               <div className="faq-a">{item.a}</div>
             </div>
