@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="footer-logo-icon">R</div>
           Reservaq
         </div>
-        <p className="footer-copy">© 2025 Reservaq. Hecho con ♥ para pequeños negocios.</p>
+        <p className="footer-copy">© 2026 Reservaq. Todos los derechos reservados.</p>
         <div className="footer-links">
           <a href="#">Privacidad</a>
           <a href="#">Términos</a>

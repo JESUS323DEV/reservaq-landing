@@ -132,9 +132,7 @@ export default function Pricing() {
           ))}
         </div>
 
-        <p className="reception-foot">
-          Miles de negocios ya gestionan sus reservas de forma más inteligente.
-        </p>
+       
 
       </div>
     </section>

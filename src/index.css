@@ -572,7 +572,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--text-muted);
   line-height: 1.7;
 }
-.faq-item.open .faq-a { max-height: 300px; padding: 0 22px 18px; }
+.faq-item.open .faq-a { max-height: 300px; padding: 12px 22px 18px; }
 
 /* ── CTA ── */
 .cta-section { padding: 90px 0; text-align: center; }

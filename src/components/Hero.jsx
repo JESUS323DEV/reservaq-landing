@@ -27,17 +27,7 @@ export default function Hero() {
               <a href="#como-funciona" className="btn btn-outline">Ver cómo funciona</a>
             </div>
 
-            <div className="hero-social-proof">
-              <div className="hero-avatars">
-                <div className="hero-avatar">👩</div>
-                <div className="hero-avatar">👨</div>
-                <div className="hero-avatar">👩</div>
-                <div className="hero-avatar">👨</div>
-              </div>
-              <p className="hero-proof-text">
-                <strong>+500 negocios</strong> ya usan Reservaq
-              </p>
-            </div>
+         
           </div>
 
           <div className="hero-mock-wrap">
