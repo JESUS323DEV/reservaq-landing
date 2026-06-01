@@ -61,7 +61,7 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--wa">
+            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--wa" target="_blank" rel="noreferrer">
               <WaIcon />Solicitar más información por WhatsApp →
             </a>
           </div>
@@ -81,7 +81,7 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--email">
+            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--email" target="_blank" rel="noreferrer">
               <Mail size={20} color="white" />Solicitar más información por Email →
             </a>
           </div>

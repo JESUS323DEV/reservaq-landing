@@ -18,7 +18,7 @@ export default function Navbar() {
           <a href="#precios" className="btn btn-outline" style={{ padding: "9px 20px", fontSize: "14px" }}>
             Ver planes
           </a>
-          <a href="https://app.reservaq.com/reservaq" className="btn btn-primary" style={{ padding: "9px 20px", fontSize: "14px" }}>
+          <a href="https://app.reservaq.com/reservaq" className="btn btn-primary" target="_blank" rel="noreferrer" style={{ padding: "9px 20px", fontSize: "14px" }}>
             Comenzar gratis
           </a>
         </div>
