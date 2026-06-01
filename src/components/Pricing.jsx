@@ -1,19 +1,19 @@
 import { Shield, Clock, Users, Mail } from "lucide-react";
 
 const WA_FEATURES = [
-  "Notificaciones instantáneas",
-  "Responde desde tu móvil",
-  "Ideal para negocios que buscan rapidez",
-  "Sin necesidad de iniciar sesión",
-  "Perfecto para equipos pequeños",
+  "Las reservas llegan al instante",
+  "Gestiona todo desde WhatsApp",
+  "Sin aplicaciones adicionales",
+  "Ideal para el día a día",
+  "Rápido y fácil de usar",
 ];
 
 const EMAIL_FEATURES = [
-  "Resumen detallado en tu email",
-  "Ideal si prefieres gestionar desde tu PC",
-  "Historial organizado de reservas",
-  "Compatible con cualquier dispositivo",
-  "Mayor control desde tu bandeja de entrada",
+  "Recibe las reservas en tu bandeja de entrada",
+  "Consulta el historial cuando lo necesites",
+  "Gestiona todo desde tu panel privado",
+  "Información organizada y fácil de localizar",
+  "Mayor control sobre cada reserva",
 ];
 
 const TRUST = [
@@ -125,7 +125,7 @@ export default function Pricing() {
           <p className="text-lg text-[#6B7280] max-w-lg mx-auto">WhatsApp o Email. Tú decides lo que mejor se adapta a tu negocio.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
 
           {/* WhatsApp */}
           <div className="bg-white rounded-3xl border border-[#daeeff] p-8 shadow-sm flex flex-col">
@@ -137,7 +137,7 @@ export default function Pricing() {
             </div>
             <p className="text-sm text-[#6B7280] mb-6">Recibe todas tus reservas directamente en tu WhatsApp en tiempo real.</p>
 
-            <div className="flex flex-col sm:flex-row gap-5 mb-7">
+            <div className="flex flex-col md:flex-row gap-5 mb-7">
               <PhoneMock />
               <ul className="flex flex-col gap-2.5">
                 {WA_FEATURES.map(f => (
@@ -156,7 +156,7 @@ export default function Pricing() {
 
           {/* Email */}
           <div className="relative bg-white rounded-3xl border border-[#daeeff] p-8 shadow-sm flex flex-col">
-           
+
             <div className="flex items-center gap-3 mb-2">
               <div className="w-12 h-12 rounded-2xl bg-[#69b4ff] flex items-center justify-center shrink-0">
                 <Mail size={22} color="white" />
@@ -165,7 +165,7 @@ export default function Pricing() {
             </div>
             <p className="text-sm text-[#6B7280] mb-6">Recibe todas las reservas en tu correo electrónico de forma organizada.</p>
 
-            <div className="flex flex-col sm:flex-row gap-5 mb-7">
+            <div className="flex flex-col md:flex-row gap-5 mb-7">
               <div className="sm:w-[55%] shrink-0">
                 <GmailMock />
               </div>
@@ -179,7 +179,7 @@ export default function Pricing() {
             </div>
 
             <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-3 rounded-full border border-[#69b4ff] text-[#3a8fe8] font-semibold hover:bg-[#69b4ff] hover:text-white transition-colors">
+              className="flex items-center justify-center gap-2 w-full mt-auto py-3 rounded-full border border-[#69b4ff] text-[#3a8fe8] font-semibold hover:bg-[#69b4ff] hover:text-white transition-colors">
               Más información
             </a>
           </div>

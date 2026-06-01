@@ -98,7 +98,7 @@ function Step3Mock() {
     { name: "David Ruiz", date: "25/05/2025 · 12:30", confirmed: false },
   ];
   return (
-    <div className="mt-5 relative">
+    <div className="mt-5 relative   md:w-100 md:mx-auto lg:w-auto ">
       <div className="rounded-xl border border-[#daeeff] bg-white overflow-hidden">
         <div className="px-4 py-2.5 border-b border-[#daeeff] flex items-center gap-2">
           <Calendar size={13} className="text-[#3a8fe8]" />
@@ -130,7 +130,7 @@ function Step3Mock() {
 
 function StepArrow() {
   return (
-    <div className="hidden md:flex items-start self-start pt-20 shrink-0 px-2">
+    <div className="hidden lg:flex items-start self-start pt-20 shrink-0 px-2">
       <svg width="52" height="28" viewBox="0 0 52 28" fill="none">
         <path d="M4 18 Q26 3 48 18" stroke="#3a8fe8" strokeWidth="1.5" strokeDasharray="4 3" strokeLinecap="round" />
         <path d="M43 12 L48 18 L42 20" stroke="#3a8fe8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -148,8 +148,8 @@ export default function HowItWorks() {
           <p className="text-lg text-[#6B7280] max-w-lg mx-auto">No necesitas saber programar ni tener experiencia técnica.</p>
         </div>
 
-        <div className="flex flex-col md:flex-row items-stretch gap-6 md:gap-0 mb-8">
-          <div className="flex-1 bg-white rounded-2xl border border-[#daeeff] p-6 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row lg:items-stretch gap-6 lg:gap-0 mb-8">
+          <div className="lg:flex-1 bg-white rounded-2xl border border-[#daeeff] p-6">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 rounded-full bg-[#3a8fe8] text-white text-base font-extrabold flex items-center justify-center shrink-0">1</div>
               <div>
@@ -162,12 +162,13 @@ export default function HowItWorks() {
 
           <StepArrow />
 
-          <div className="flex-1 bg-white rounded-2xl border border-[#daeeff] p-6 w-full">
+          <div className="lg:flex-1 bg-white rounded-2xl border border-[#daeeff] p-6">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 rounded-full bg-[#3a8fe8] text-white text-base font-extrabold flex items-center justify-center shrink-0">2</div>
               <div>
                 <h3 className="text-base font-bold text-[#0F0A1E]">Comparte o incrusta</h3>
-                <p className="text-sm text-[#6B7280] leading-relaxed mt-1">Copia el enlace y compártelo por WhatsApp, redes o email. O pega el snippet en tu web en dos líneas.</p>
+                <p className="text-sm text-[#6B7280] leading-relaxed mt-1">Obtén tu propio enlace de reservas para compartirlo o integra el formulario directamente en tu web.
+</p>
               </div>
             </div>
             <Step2Mock />
@@ -175,7 +176,7 @@ export default function HowItWorks() {
 
           <StepArrow />
 
-          <div className="flex-1 bg-white rounded-2xl border border-[#daeeff] p-6 w-full">
+          <div className="sm:col-span-2 lg:col-auto lg:flex-1 bg-white rounded-2xl border border-[#daeeff] p-6">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 rounded-full bg-[#3a8fe8] text-white text-base font-extrabold flex items-center justify-center shrink-0">3</div>
               <div>

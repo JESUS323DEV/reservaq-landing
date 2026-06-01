@@ -5,7 +5,7 @@ import logo from "../assets/logo-reservaq.png";
 const links = [
   { href: "#caracteristicas", label: "Características" },
   { href: "#como-funciona", label: "Cómo funciona" },
-  { href: "#precios", label: "Precios" },
+  { href: "#planes", label: "planes" },
   { href: "#faq", label: "FAQ" },
 ];
 

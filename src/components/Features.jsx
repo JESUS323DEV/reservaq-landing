@@ -6,7 +6,7 @@ const SECONDARY_FEATURES = [
     bg: "bg-green-100",
     color: "text-green-600",
     title: "WhatsApp & Email",
-    desc: "Envía y recibe confirmaciones automáticas por WhatsApp o email. Menos no-shows, más clientes contentos.",
+    desc: "Recibe tus reservas por WhatsApp o email. Tú eliges la forma que mejor se adapta a tu negocio.",
   },
   {
     icon: <BarChart2 size={22} />,
@@ -26,8 +26,8 @@ const SECONDARY_FEATURES = [
     icon: <HelpCircle size={22} />,
     bg: "bg-orange-100",
     color: "text-orange-500",
-    title: "Preguntas personalizadas",
-    desc: "Añade campos extra al formulario de reserva para conocer mejor a tus clientes antes de cada cita.",
+    title: "Campos extras",
+    desc: "Personaliza el formulario de reserva con preguntas adaptadas a tu negocio.",
   },
 ];
 
