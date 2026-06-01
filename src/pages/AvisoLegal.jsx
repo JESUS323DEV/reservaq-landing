@@ -23,10 +23,9 @@ export default function AvisoLegal() {
             <h2 className="text-lg font-bold text-[#0F0A1E] mb-3">1. Titular del sitio web</h2>
             <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE), se informa de los datos del titular de este sitio web:</p>
             <ul className="mt-3 space-y-1 text-sm">
-              <li><strong>Titular:</strong> [Nombre completo o razón social]</li>
-              <li><strong>NIF/CIF:</strong> [Número de identificación fiscal]</li>
-              <li><strong>Domicilio:</strong> [Dirección completa], España</li>
-              <li><strong>Email de contacto:</strong> hola@reservaq.com</li>
+              <li><strong>Titular:</strong> Jesús (JesúsDev)</li>
+              <li><strong>Actividad:</strong> Diseño y desarrollo web freelance</li>
+              <li><strong>Contacto:</strong> WhatsApp · Instagram <a href="https://instagram.com/jesussdev" className="text-[#3a8fe8] hover:underline" target="_blank" rel="noreferrer">@jesussdev</a></li>
               <li><strong>Sitio web:</strong> www.reservaq.com</li>
             </ul>
           </section>
@@ -55,7 +54,7 @@ export default function AvisoLegal() {
 
           <section>
             <h2 className="text-lg font-bold text-[#0F0A1E] mb-3">6. Contacto</h2>
-            <p>Para cualquier consulta relacionada con este aviso legal puedes escribirnos a <a href="mailto:hola@reservaq.com" className="text-[#3a8fe8] hover:underline">hola@reservaq.com</a>.</p>
+            <p>Para cualquier consulta relacionada con este aviso legal puedes contactar por WhatsApp o a través de Instagram <a href="https://instagram.com/jesussdev" className="text-[#3a8fe8] hover:underline" target="_blank" rel="noreferrer">@jesussdev</a>.</p>
           </section>
 
         </div>

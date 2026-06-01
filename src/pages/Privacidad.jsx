@@ -22,10 +22,9 @@ export default function Privacidad() {
           <section>
             <h2 className="text-lg font-bold text-[#0F0A1E] mb-3">1. Responsable del tratamiento</h2>
             <ul className="space-y-1 text-sm">
-              <li><strong>Titular:</strong> [Nombre completo o razón social]</li>
-              <li><strong>NIF/CIF:</strong> [Número de identificación fiscal]</li>
-              <li><strong>Domicilio:</strong> [Dirección completa], España</li>
-              <li><strong>Email:</strong> hola@reservaq.com</li>
+              <li><strong>Titular:</strong> Jesús (JesúsDev)</li>
+              <li><strong>Actividad:</strong> Diseño y desarrollo web freelance</li>
+              <li><strong>Contacto:</strong> WhatsApp · Instagram <a href="https://instagram.com/jesussdev" className="text-[#3a8fe8] hover:underline" target="_blank" rel="noreferrer">@jesussdev</a></li>
             </ul>
           </section>
 
@@ -76,7 +75,7 @@ export default function Privacidad() {
 
           <section>
             <h2 className="text-lg font-bold text-[#0F0A1E] mb-3">7. Derechos del usuario</h2>
-            <p>Puedes ejercer en cualquier momento los derechos de acceso, rectificación, supresión, portabilidad, limitación y oposición al tratamiento escribiendo a <a href="mailto:hola@reservaq.com" className="text-[#3a8fe8] hover:underline">hola@reservaq.com</a>, adjuntando copia de tu documento de identidad.</p>
+            <p>Puedes ejercer en cualquier momento los derechos de acceso, rectificación, supresión, portabilidad, limitación y oposición al tratamiento contactando por WhatsApp o a través de Instagram <a href="https://instagram.com/jesussdev" className="text-[#3a8fe8] hover:underline" target="_blank" rel="noreferrer">@jesussdev</a>.</p>
             <p className="mt-2">También tienes derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).</p>
           </section>
 
