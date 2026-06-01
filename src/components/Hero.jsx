@@ -27,7 +27,7 @@ export default function Hero() {
               <a href="#como-funciona" className="btn btn-outline">Ver cómo funciona</a>
             </div>
 
-         
+
           </div>
 
           <div className="hero-mock-wrap">
