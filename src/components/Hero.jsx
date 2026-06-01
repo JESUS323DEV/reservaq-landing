@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
 
             <div className="hero-actions">
-              <a href="#" className="btn btn-primary">Probar gratis →</a>
+              <a href="https://app.reservaq.com/reservaq" className="btn btn-primary">Probar gratis →</a>
               <a href="#como-funciona" className="btn btn-outline">Ver cómo funciona</a>
             </div>
 

@@ -61,9 +61,9 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-            <button type="button" className="rc-btn rc-btn--wa">
+            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--wa">
               <WaIcon />Solicitar más información por WhatsApp →
-            </button>
+            </a>
           </div>
 
           {/* Email */}
@@ -81,9 +81,9 @@ export default function Pricing() {
                 </li>
               ))}
             </ul>
-            <button type="button" className="rc-btn rc-btn--email">
+            <a href="https://app.reservaq.com/reservaq" className="rc-btn rc-btn--email">
               <Mail size={20} color="white" />Solicitar más información por Email →
-            </button>
+            </a>
           </div>
 
         </div>
