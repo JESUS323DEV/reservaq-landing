@@ -5,7 +5,7 @@ import logo from "../assets/logo-reservaq.png";
 const links = [
   { href: "#caracteristicas", label: "Características" },
   { href: "#como-funciona", label: "Cómo funciona" },
-  { href: "#planes", label: "planes" },
+  { href: "#planes", label: "Recepción" },
   { href: "#faq", label: "FAQ" },
 ];
 
@@ -35,10 +35,8 @@ export default function Navbar() {
           </ul>
 
           {/* CTAs desktop */}
-          <div className="hidden lg:flex items-center gap-10">
-            <a href="#precios" className="px-5 py-2 text-sm font-semibold rounded-full border border-[#daeeff] text-[#0F0A1E] hover:border-[#69b4ff] hover:text-[#69b4ff] transition-colors">
-              Ver planes
-            </a>
+          <div className="hidden lg:flex items-center ">
+            
             <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
               className="px-5 py-2 text-sm font-semibold rounded-full bg-[#69b4ff] text-white hover:bg-[#3a8fe8] transition-colors shadow-md">
               Comenzar gratis
@@ -61,10 +59,7 @@ export default function Navbar() {
               </a>
             ))}
             <hr className="border-[#daeeff]" />
-            <a href="#precios" onClick={() => setOpen(false)}
-              className="text-center py-3 rounded-full border border-[#daeeff] text-sm font-semibold text-[#0F0A1E]">
-              Ver planes
-            </a>
+          
             <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
               className="text-center py-3 rounded-full bg-[#69b4ff] text-white text-sm font-semibold">
               Comenzar gratis
