@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronRight } from "lucide-react";
 import logo from "../assets/logo-reservaq.png";
 
 const links = [
@@ -36,7 +36,7 @@ export default function Navbar() {
 
           {/* CTAs desktop */}
           <div className="hidden lg:flex items-center ">
-            
+
             <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
               className="px-5 py-2 text-sm font-semibold rounded-full bg-[#69b4ff] text-white hover:bg-[#3a8fe8] transition-colors shadow-md">
               Comenzar gratis
@@ -51,19 +51,25 @@ export default function Navbar() {
 
         {/* Mobile menu  */}
         {open && (
-          <div className="lg:hidden flex-1 px-6 py-8 flex flex-col gap-6">
+          <div className="lg:hidden px-6 mt-15 flex flex-col gap-10">
             {links.map(l => (
               <a key={l.href} href={l.href} onClick={() => setOpen(false)}
-                className="text-lg font-semibold text-[#0F0A1E] hover:text-[#69b4ff] transition-colors">
+                className="flex justify-between pb-3 text-2xl border-b border-b-[#0F0A1E]/20  font-semibold text-[#0F0A1E]/90 hover:text-[#69b4ff] transition-colors">
                 {l.label}
+                <ChevronRight />
               </a>
             ))}
-            <hr className="border-[#daeeff]" />
-          
-            <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
-              className="text-center py-3 rounded-full bg-[#69b4ff] text-white text-sm font-semibold">
-              Comenzar gratis
-            </a>
+
+
+
+
+            <div className="flex flex-col gap-5 mt-10 ">
+              <hr className="border-[#daeeff]" />
+              <a href="https://app.reservaq.com/reservaq" target="_blank" rel="noreferrer"
+                className="text-center py-3 rounded-full bg-[#69b4ff] text-white text-sm font-semibold">
+                Comenzar gratis
+              </a>
+            </div>
           </div>
         )}
       </nav>

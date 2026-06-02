@@ -145,7 +145,7 @@ export default function HowItWorks() {
       <div className="max-w-[1100px] mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F0A1E] mb-3">En marcha en 3 pasos</h2>
-          <p className="text-lg text-[#6B7280] max-w-lg mx-auto">No necesitas saber programar ni tener experiencia técnica.</p>
+          <p className="text-lg text-[#6B7280] max-w-lg mx-auto">Configura tu negocio, comparte tu enlace y empieza a recibir reservas.</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:flex-row lg:items-stretch gap-6 lg:gap-0 mb-8">
@@ -194,7 +194,7 @@ export default function HowItWorks() {
           </div>
           <div>
             <p className="font-bold text-[#0F0A1E]">Así de fácil.</p>
-            <p className="text-sm text-[#6B7280]">Sin complicaciones. Sin tecnicismos. Empieza a recibir reservas hoy mismo.</p>
+            <p className="text-sm text-[#6B7280]">Sin instalaciones. Sin complicaciones. Empieza a recibir reservas hoy mismo.</p>
           </div>
         </div>
       </div>

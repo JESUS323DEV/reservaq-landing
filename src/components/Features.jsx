@@ -1,4 +1,4 @@
-import { Code2, MessageCircle, BarChart2, QrCode, HelpCircle, Shield, Plug, Zap, Lock } from "lucide-react";
+import { Code2, MessageCircle, BarChart2, QrCode, HelpCircle, Star, Plug, Zap, Lock } from "lucide-react";
 
 const SECONDARY_FEATURES = [
   {
@@ -32,10 +32,10 @@ const SECONDARY_FEATURES = [
 ];
 
 const MINI_ITEMS = [
-  { icon: <Shield size={18} />, title: "Sin suscripciones", desc: "Paga solo una vez. Sin cuotas mensuales." },
-  { icon: <Plug size={18} />, title: "Sin plugins", desc: "No necesitas WordPress ni nada adicional." },
-  { icon: <Zap size={18} />, title: "Funciona desde el día 1", desc: "Crea tu sistema de reservas y empieza a recibir citas." },
-  { icon: <Lock size={18} />, title: "Seguro y privado", desc: "Tus datos y los de tus clientes siempre protegidos." },
+  { icon: <Star size={20} />, title: "Fácil de usar", desc: "Gestiona reservas, horarios y clientes desde un único panel." },
+  { icon: <Plug size={20} />, title: "Sin plugins", desc: "Funciona de forma independiente, sin WordPress ni herramientas adicionales." },
+  { icon: <Zap size={20} />, title: "Listo desde el primer día", desc: "Configura tu negocio y empieza a recibir reservas en minutos." },
+  { icon: <Lock size={20} />, title: "Seguro y privado", desc: "Las reservas y los datos de tus clientes se gestionan de forma segura." },
 ];
 
 function BrowserMock() {
@@ -134,15 +134,16 @@ export default function Features() {
           ))}
         </div>
 
+        {/*MINI ITEMS*/}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {MINI_ITEMS.map((item) => (
             <div
               key={item.title}
-              className="flex items-start gap-3 bg-white rounded-xl border border-[#daeeff] p-4"
+              className="flex flex-col items-start gap-3 bg-white rounded-xl border border-[#daeeff] p-4"
             >
-              <span className="text-[#3a8fe8] mt-0.5 shrink-0">{item.icon}</span>
-              <div>
-                <p className="text-sm font-semibold text-[#0F0A1E]">{item.title}</p>
+              <span className="text-[#3a8fe8]  mt-0.5 shrink-0 ">{item.icon}</span>
+              <div className="flex flex-col gap-2">
+                <p className="text-xs font-semibold text-[#0F0A1E]">{item.title}</p>
                 <p className="text-xs text-[#6B7280] mt-0.5">{item.desc}</p>
               </div>
             </div>
